@@ -1,3 +1,3 @@
-from util import crossValidation
+from util.crossValidation import crossValidate
 from classifiers import bayes
 

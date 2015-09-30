@@ -145,7 +145,7 @@ def runClassifier(trainingData,testData,selectedWords):
     #offline cost is above
     
     #online cost is below
-    num=0
+    #num=0
     correct=0
     totalPredictions=float(len(testData))
     #testResults=list()
@@ -156,8 +156,8 @@ def runClassifier(trainingData,testData,selectedWords):
         likelyClass=max(bayesNums.iteritems(),key=operator.itemgetter(1))[0]
         
         #testResults.append([doc[0],doc[1][0],bayesNums,likelyClass])
-        num=num+1
-        print (num)
+        #num=num+1
+        #print (num)
         if (likelyClass==doc[1][0]):
             correct=correct+1
 

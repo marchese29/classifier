@@ -1,0 +1,200 @@
+Without NULL as a topic:
+Loading the feature vectors...this may take a little while.
+Processing the feature vectors.
+Partitioning the data set for cross-validation.
+Testing the KNN Classifier with K=11
+Testing partition #1
+    Training the classifier (indexing input)
+    Training time: 0.0265100002289 seconds
+    Training time per vector: 3.36934420804e-06 seconds
+    Validating against test data.
+    Time taken: 126.898429155 seconds
+    Average classification time: 0.0652098813748 seconds
+    Accuracy: 0.752312
+Testing partition #2
+    Training the classifier (indexing input)
+    Training time: 0.00861406326294 seconds
+    Training time per vector: 1.09817226708e-06 seconds
+    Validating against test data.
+    Time taken: 129.600029945 seconds
+    Average classification time: 0.0657868172312 seconds
+    Accuracy: 0.768020
+Testing partition #3
+    Training the classifier (indexing input)
+    Training time: 0.00826191902161 seconds
+    Training time per vector: 1.05651138384e-06 seconds
+    Validating against test data.
+    Time taken: 129.522279024 seconds
+    Average classification time: 0.0649560075347 seconds
+    Accuracy: 0.782347
+Testing partition #4
+    Training the classifier (indexing input)
+    Training time: 0.00934314727783 seconds
+    Training time per vector: 1.19081662985e-06 seconds
+    Validating against test data.
+    Time taken: 131.349809885 seconds
+    Average classification time: 0.0667427895757 seconds
+    Accuracy: 0.768293
+Testing partition #5
+    Training the classifier (indexing input)
+    Training time: 0.00831699371338 seconds
+    Training time per vector: 1.05572400525e-06 seconds
+    Validating against test data.
+    Time taken: 132.828718901 seconds
+    Average classification time: 0.0686098754652 seconds
+    Accuracy: 0.766012
+Average accuracy: 0.767397
+python knndriver.py  743.99s user 1.05s system 99% cpu 12:25.20 total
+
+
+
+With NULL as a topic:
+Loading the feature vectors...this may take a little while.
+Processing the feature vectors.
+Partitioning the data set for cross-validation.
+18103
+Testing the KNN Classifier with K=11
+Testing partition #1
+    Training the classifier (indexing input)
+    Training time: 0.0312478542328 seconds
+    Training time per vector: 2.15800098293e-06 seconds
+    Validating against test data.
+    Time taken: 375.254979849 seconds
+    Average classification time: 0.103575760378 seconds
+    Accuracy: 0.749655
+Testing partition #2
+    Training the classifier (indexing input)
+    Training time: 0.0143649578094 seconds
+    Training time per vector: 9.94458830699e-07 seconds
+    Validating against test data.
+    Time taken: 373.669629097 seconds
+    Average classification time: 0.102151347484 seconds
+    Accuracy: 0.726353
+Testing partition #3
+    Training the classifier (indexing input)
+    Training time: 0.0138120651245 seconds
+    Training time per vector: 9.53674316406e-07 seconds
+    Validating against test data.
+    Time taken: 369.808591127 seconds
+    Average classification time: 0.102157069372 seconds
+    Accuracy: 0.746685
+Testing partition #4
+    Training the classifier (indexing input)
+    Training time: 0.0139558315277 seconds
+    Training time per vector: 9.64399939722e-07 seconds
+    Validating against test data.
+    Time taken: 384.350012064 seconds
+    Average classification time: 0.105823241207 seconds
+    Accuracy: 0.728249
+Testing partition #5
+    Training the classifier (indexing input)
+    Training time: 0.0138208866119 seconds
+    Training time per vector: 9.51000248534e-07 seconds
+    Validating against test data.
+    Time taken: 386.140105009 seconds
+    Average classification time: 0.1081624944 seconds
+    Accuracy: 0.747899
+Average accuracy: 0.739768
+python knndriver.py  1982.42s user 2.16s system 99% cpu 33:05.28 total
+
+
+
+Paired Down, without NULL as a topic:
+Loading the feature vectors...this may take a little while.
+Processing the feature vectors.
+Partitioning the data set for cross-validation.
+9812
+Testing the KNN Classifier with K=11
+Testing partition #1
+    Training the classifier (indexing input)
+    Training time: 0.0262279510498 seconds
+    Training time per vector: 3.33137953128e-06 seconds
+    Validating against test data.
+    Time taken: 106.037317991 seconds
+    Average classification time: 0.0546866003049 seconds
+    Accuracy: 0.753481
+Testing partition #2
+    Training the classifier (indexing input)
+    Training time: 0.00872302055359 seconds
+    Training time per vector: 1.1213550011e-06 seconds
+    Validating against test data.
+    Time taken: 108.09061718 seconds
+    Average classification time: 0.053168035996 seconds
+    Accuracy: 0.756026
+Testing partition #3
+    Training the classifier (indexing input)
+    Training time: 0.00930500030518 seconds
+    Training time per vector: 1.18293927094e-06 seconds
+    Validating against test data.
+    Time taken: 106.953077793 seconds
+    Average classification time: 0.0549604716306 seconds
+    Accuracy: 0.762590
+Testing partition #4
+    Training the classifier (indexing input)
+    Training time: 0.00745511054993 seconds
+    Training time per vector: 9.54437402372e-07 seconds
+    Validating against test data.
+    Time taken: 114.612359047 seconds
+    Average classification time: 0.0572775407531 seconds
+    Accuracy: 0.754623
+Testing partition #5
+    Training the classifier (indexing input)
+    Training time: 0.00878190994263 seconds
+    Training time per vector: 1.10896703405e-06 seconds
+    Validating against test data.
+    Time taken: 109.815203905 seconds
+    Average classification time: 0.0580112012177 seconds
+    Accuracy: 0.756999
+Average accuracy: 0.756744
+python knndriver.py  689.62s user 1.46s system 99% cpu 11:31.71 total
+
+
+
+Paired Down, with NULL as a topic
+Loading the feature vectors...this may take a little while.
+Processing the feature vectors.
+Partitioning the data set for cross-validation.
+18054
+Testing the KNN Classifier with K=11
+Testing partition #1
+    Training the classifier (indexing input)
+    Training time: 0.028678894043 seconds
+    Training time per vector: 1.98387479545e-06 seconds
+    Validating against test data.
+    Time taken: 332.078277826 seconds
+    Average classification time: 0.0922952411969 seconds
+    Accuracy: 0.712618
+Testing partition #2
+    Training the classifier (indexing input)
+    Training time: 0.0122771263123 seconds
+    Training time per vector: 8.5139572207e-07 seconds
+    Validating against test data.
+    Time taken: 336.764750004 seconds
+    Average classification time: 0.0926705421034 seconds
+    Accuracy: 0.728123
+Testing partition #3
+    Training the classifier (indexing input)
+    Training time: 0.0134499073029 seconds
+    Training time per vector: 9.29631414353e-07 seconds
+    Validating against test data.
+    Time taken: 332.573739052 seconds
+    Average classification time: 0.0927422585197 seconds
+    Accuracy: 0.728946
+Testing partition #4
+    Training the classifier (indexing input)
+    Training time: 0.0121209621429 seconds
+    Training time per vector: 8.42669781907e-07 seconds
+    Validating against test data.
+    Time taken: 339.423113823 seconds
+    Average classification time: 0.0924858620771 seconds
+    Accuracy: 0.720163
+Testing partition #5
+    Training the classifier (indexing input)
+    Training time: 0.0154130458832 seconds
+    Training time per vector: 1.06384910845e-06 seconds
+    Validating against test data.
+    Time taken: 330.596278906 seconds
+    Average classification time: 0.0927078740622 seconds
+    Accuracy: 0.728267
+Average accuracy: 0.723624
+python knndriver.py  1807.73s user 1.01s system 99% cpu 30:08.77 total

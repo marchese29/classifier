@@ -12,8 +12,8 @@ def crossValidate(data):
     
     #find all of the docs with non Null topics
     for doc in data:
-        if doc[1][0]!='NULL':
-            nonNullTopicDocs.append(doc)
+        #if doc[1][0]!='NULL':
+        nonNullTopicDocs.append(doc)
 
     
     

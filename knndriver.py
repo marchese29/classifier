@@ -38,7 +38,7 @@ def test_classifier(training_data, test_data, classifier):
 
 def main():
     print 'Loading the feature vectors...this may take a little while.'
-    with open('data/feature_vector_map.pickle', 'r') as f:
+    with open('data/reducedFeatureVectorMatrix1000.pkl', 'r') as f:
         data = pickle.load(f)
 
     print 'Processing the feature vectors.'

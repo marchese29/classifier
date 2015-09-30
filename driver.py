@@ -1,11 +1,12 @@
 from util.crossValidation import crossValidate
 from classifiers import bayes
 
-list256=pickle.load( open( "classifier/data/256WordList.pickle", "rb" ) )
-list1000=pickle.load( open( "classifier/data/1000WordList.pkl", "rb" ) )
 
-matrix1000=pickle.load( open( "classifier/data/reducedFeatureVectorMatrix1000.pkl", "rb" ) )
-matrix256=pickle.load( open( "classifier/data/reducedFeatureVectorMatrix256.pkl", "rb" ) )
+list256=pickle.load( open( "marchese29/classifier/blob/master/data/256WordList.pickle", "rb" ) )
+list1000=pickle.load( open( "marchese29/classifier/blob/master/data/1000WordList.pkl", "rb" ) )
+
+matrix1000=pickle.load( open( "marchese29/classifier/blob/master/data/reducedFeatureVectorMatrix1000.pkl", "rb" ) )
+matrix256=pickle.load( open( "marchese29/classifier/blob/master/data/reducedFeatureVectorMatrix256.pkl", "rb" ) )
 
 trainingTestPairs1000=crossValidate(matrix1000)
 trainingTestPairs256=crossValidate(matrix256)

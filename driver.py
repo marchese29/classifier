@@ -12,8 +12,8 @@ trainingTestPairs1000=crossValidate(matrix1000)
 trainingTestPairs256=crossValidate(matrix256)
 
 
-accArray1000=NaiveBayesClassifier(trainingTestPairs1000,list1000)
-accArray256=NaiveBayesClassifier(trainingTestPairs256,list256)
+accArray1000=bayes.NaiveBayesClassifier(trainingTestPairs1000,list1000)
+accArray256=bayes.NaiveBayesClassifier(trainingTestPairs256,list256)
 
 
 

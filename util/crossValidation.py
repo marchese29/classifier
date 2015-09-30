@@ -20,7 +20,7 @@ def crossValidate(data):
     FivePairs=list()
     
     size=len(nonNullTopicDocs)
-    print(size)
+    #print(size)
 
     subsetSize=size/5
 
